@@ -4,11 +4,13 @@
     margin: 0;
 }
 
-/* General */
+/* Body */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* Headings & Text */
 
 h1 {
     display: inline-block;
@@ -27,24 +29,15 @@ h3 {
 
 a {
     color: #ffffff;
-    text-decoration: none;
+
 }
 
 p {
     font-size: 16px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* Header and nav */
+/* Navigation Bar*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,7 +45,6 @@ header {
     color: #ffffff;
 }
 
-/** Brand colour change **/
 .seo {
     color: #d9dcd6;
 }
@@ -73,7 +65,7 @@ li {
     margin-left: 25px;
 }
 
-/* Hero */
+/* Hero Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -83,12 +75,26 @@ li {
     background-position: center;
 }
 
-/* Main section - left */
+/* Main section */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Floats */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Services section - main */
 
 .services {
     margin-bottom: 20px;
@@ -102,7 +108,7 @@ main {
     max-height: 200px;
 }
 
-/* Benefits section - right */
+/* Benefits section - aside */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -131,9 +137,6 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer span {
     font-size: 20px;
     font-weight: bold;
 }
