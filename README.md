@@ -1,12 +1,12 @@
 <body>
 
 <h1>
-# Homework1_1911
-First Assessment - Coding bootcamp
+# Horiseon - Webpage
+First Assessment - Code Refactor
 </h1>
 
 The link to the webpage is:
-<a href="https://suziestephen.github.io/suziestephen.github.io-hw1/"><Homework1_1911></a>
+<a href="https://suziestephen.github.io/webpage.github.io/."><Horiseon Webpage></a>
 
 Usage:
 Below is a screenshot of the resulting webpage
